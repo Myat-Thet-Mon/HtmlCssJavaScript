@@ -1,0 +1,13 @@
+.shortInfoMovie{
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+}
+img{
+  width:100%;
+}
+
+.firstrow{
+  display: flex;
+  flex-direction: row;
+}

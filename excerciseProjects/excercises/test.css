@@ -1,0 +1,116 @@
+.main{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #D3D3D3;
+}
+.title{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.23;
+    font-family: "-apple-system",BlinkMacSystemFont,"-webkit-system-font","Malgun Gothic","Segoe UI","Helvetica Neue",Helvetica,sans-serif;
+}
+
+.horizontal{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.shortInfoMovie{
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+
+}
+
+.movieImg{
+    width: 50%;
+}
+.text{
+    margin-top: 20px;
+    width: 50%;
+    
+}
+.category{
+    font-size: .8rem;
+    color:gray;
+    font-family: "-apple-system",BlinkMacSystemFont,"-webkit-system-font","Malgun Gothic","Segoe UI","Helvetica Neue",Helvetica,sans-serif;
+
+}
+.title1{
+    font-size: 1rem;
+    font-family: "-apple-system",BlinkMacSystemFont,"-webkit-system-font","Malgun Gothic","Segoe UI","Helvetica Neue",Helvetica,sans-serif;
+    color: dark;
+}
+.summary{
+    font-size: .8rem;
+    color:gray;
+    font-family: "-apple-system",BlinkMacSystemFont,"-webkit-system-font","Malgun Gothic","Segoe UI","Helvetica Neue",Helvetica,sans-serif;
+
+}
+.horizontal .btn1 {
+    padding-left: 10px;
+    visibility: hidden;
+}
+.horizontal:hover .btn1 {
+    visibility: visible;
+  }
+  .horizontal .btn2 {
+    padding-right: 10px;
+    visibility: hidden;
+}
+.horizontal:hover .btn2 {
+    visibility: visible;
+  }
+/* .movieImg{
+    width: 50%;
+}
+.text{
+    width: 50%;
+}
+.category{
+    font-size: 16px;
+    font-weight: 200;
+
+}
+.title{
+    font-size: 18px;
+    font-weight: 550;
+
+}
+.summary{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.hovermovie{
+    width: 30vw;
+    position: relative;
+
+}
+.hovermovie .btn{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;    
+    color:#D3D3D3;
+    display: none;
+}
+.hovermovie:hover .btn {
+    display: block;
+  }
+.hovermovie:hover .btn:hover {
+    color:blue;
+} */

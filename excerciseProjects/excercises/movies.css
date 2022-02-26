@@ -1,0 +1,86 @@
+/* 1 */
+.shortInfoMovie{
+    width: 40vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+
+}
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+.movieImg{
+    width: 50%;
+}
+.text{
+    width: 50%;
+}
+.category{
+    font-size: 16px;
+    font-weight: 200;
+
+}
+.title{
+    font-size: 18px;
+    font-weight: 550;
+
+}
+.summary{
+    font-size: 16px;
+    font-weight: 200;
+}
+/* 2 */
+.imgmovie{
+    width: 18vw;
+    height: fit-content;
+    position: relative;
+}
+img{
+    width: 100%;
+}
+.imgmovie .btn{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color:#D3D3D3;
+    display: none;
+}
+.imgmovie:hover .btn {
+    display: block;
+  }
+.imgmovie:hover .btn:hover {
+    color:blue;
+}
+
+/* 3 */
+.titlemovie{
+    width: 15vw;
+    height: fit-content;
+}
+.button {
+   
+    font-size: 17px;
+    border: none;
+ }
+ 
+ /* 4 */
+ .comingmovie{
+    width: 28vw;
+    height: fit-content;
+    position: relative;
+
+}
+img{
+    width: 100%;
+}
+.comingmovie .text{
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+    color: white;
+    font-family: monospace;
+    
+}
+

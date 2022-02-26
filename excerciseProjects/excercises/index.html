@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <title>Todo Project 2</title>
+    <style>
+        body {
+            font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        #title {
+            font-size: 100px;
+            text-rendering: optimizeLegibility;
+            font-weight: 100;
+            color: rgba(175, 47, 47, 0.15);
+            text-align: center;
+
+        }
+
+        .todo-lable {
+
+            padding-left: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ededed;
+            position: relative;
+            font-size: 24px;
+
+        }
+
+        #last-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            color: #777;
+            padding: 10px 15px;
+            height: 20px;
+            text-align: center;
+            border-top: 1px solid #e6e6e6;
+
+        }
+
+
+        #todo-body {
+            border:2px solid #ededed;
+            /* box-shadow:  10px solid #ededed; */
+        }
+
+        #todo-text-box {
+            border: none;
+        }
+
+        #todo-text-box:focus {
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="title">
+        todos
+    </div>
+
+    <div id="todo-body">
+        <div class="todo-lable">
+            <input id="todo-text-box" type="text" />
+        </div>
+
+        <div class="todo-lable">
+            Testing 1
+        </div>
+
+        <div class="todo-lable">
+            Testing 2
+        </div>
+
+        <div class="todo-lable">
+            Testing 3
+        </div>
+
+        <div id="last-row">
+            <div>
+                3 items left
+            </div>
+            <div id="btn">
+                <input type="button" value="All" />
+                <input type="button" value="Active" />
+                <input type="button" value="Complete" />
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+.main{
+    width: 100vw ;
+    height: 60vh;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.bgimg{
+    width: 100%;
+}
+
+.horizontal{
+display: flex;
+position: absolute;
+bottom: 8%;
+flex-direction: row;
+justify-content: space-between;
+    align-items: center;
+
+}
+
+.hovermovie{
+    width: 18vw;
+    height: 15vh;
+    position: relative;
+    padding-right: 10px;
+
+}
+
+.hovermovie .btn{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;    
+    color:#D3D3D3;
+    display: none;
+}
+.hovermovie:hover .btn {
+    display: block;
+  }
+.hovermovie:hover .btn:hover {
+    color:blue;
+}
+.btn1{
+    padding-left: 10px;
+}
+
+.hovermovie .button {
+   font-size: 17px;
+   border: none;
+   outline: none;
+ }
+.text{
+    position: absolute;
+    top: 30%;
+    color: white;
+    padding-left: 20px;
+}
+.txt1{
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.34;
+    text-align: left;
+    color:#D3D3D3;
+
+    font-family: "-apple-system",BlinkMacSystemFont,"-webkit-system-font","Malgun Gothic","Segoe UI","Helvetica Neue",Helvetica,sans-serif;
+
+}
+.txt2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.23;
+    font-family: "-apple-system",BlinkMacSystemFont,"-webkit-system-font","Malgun Gothic","Segoe UI","Helvetica Neue",Helvetica,sans-serif;
+}
+.txt3{
+    font-size: 17px;
+    line-height: 1.29412;
+    font-weight: 400;
+    letter-spacing: 0;
+    color:#D3D3D3;
+
+    font-family: "-apple-system",BlinkMacSystemFont,"-webkit-system-font","Malgun Gothic","Segoe UI","Helvetica Neue",Helvetica,sans-serif;
+}

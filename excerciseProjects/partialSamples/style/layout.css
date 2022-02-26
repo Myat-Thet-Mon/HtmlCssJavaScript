@@ -1,0 +1,53 @@
+*{
+margin:0;
+padding:0;
+} 
+body {
+ 	background-image:url(../images/sh.jpeg);
+	font-family:arial,tahoma,sans-serif;
+	font-size:13px;
+
+}
+#header{
+	width:960px;
+	height:100px;
+	margin:0px auto 0 auto;
+	
+}
+
+#logo,#slogan,#language,#contact-info{
+	float:left;
+}
+
+#logo {
+
+}
+#slogan,#language,#contact-info{
+	margin-left:25px;
+}
+#contact-info a{
+
+color:#2261AE;
+text-decoration:none;
+font-size:15px;
+font-weight:bold;
+
+}
+ 
+
+#language a{
+	color:#2261AE;
+	text-decoration:none;
+	font-size:15px;
+	font-weight:bold;
+	background:url(../images/mm.webp)no-repeat;
+	padding:0 0 0 30px;
+}
+
+#slogan p{
+color:#49A400;
+text-decoration:none;
+font-size:20px;
+font-weight:bold;
+}
+

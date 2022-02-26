@@ -1,0 +1,44 @@
+.main{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 10vh;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.23;
+}
+
+.horizontal{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+img{
+    width: 100%;
+}
+.hovermovie{
+    width: 30vw;
+    position: relative;
+
+}
+.hovermovie .btn{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;    
+    color:#D3D3D3;
+    display: none;
+}
+.hovermovie:hover .btn {
+    display: block;
+  }
+.hovermovie:hover .btn:hover {
+    color:blue;
+}

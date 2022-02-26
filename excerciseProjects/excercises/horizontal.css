@@ -1,0 +1,38 @@
+.main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.hovermovie{
+    width: 22vw;
+    position: relative;
+    
+
+}
+.hovermovie .btn{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;    
+    color:#D3D3D3;
+    display: none;
+}
+.hovermovie:hover .btn {
+    display: block;
+  }
+.hovermovie:hover .btn:hover {
+    color:blue;
+}
+
+
+
+
+
+
