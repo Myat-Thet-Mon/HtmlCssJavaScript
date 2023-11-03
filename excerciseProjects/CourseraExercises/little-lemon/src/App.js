@@ -16,7 +16,8 @@ function App() {
     // </Router>
    
     <div className='app'>
-    <HomePage/>
+    {/* <HomePage/> */}
+    <BookingPage/>
     </div>
   );
 }
