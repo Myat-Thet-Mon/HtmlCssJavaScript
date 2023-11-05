@@ -10,26 +10,20 @@ import { render, fireEvent, screen } from "@testing-library/react";
 import App from "./App";
 import BookingForm from "./compnents/BookingForm";
 
-test("Adds one", () => {
-  // render the App component
-  render(<App />); 
-  
-  // save the heading in a variable
-  const heading = screen.getByTestId("currentNumber"); 
-  
-  // save the button in a variable
-  const btn = screen.getByTestId("addOne"); 
-  
-  // click the btn
-  fireEvent.click(btn); 
-  
-  // test assumption
-  expect(heading).toHaveTextContent("2");
+test('Renders the BookingForm heading', () => {
+  render(<BookingForm />);
 
-  test('Renders the BookingForm heading', () => {
-    render(<BookingForm/>);
-    const headingElement = screen.getByText("Book Now");
-    expect(headingElement).toBeInTheDocument();
-})
+  const dateLabel = screen.getByText("Select Date");
+  const timeLabel = screen.getByText("Select Time");
+  const guestsLabel = screen.getByText("Number of guests");
+  const occasionLabel = screen.getByText("Occasion");
+  const reserveButton = screen.getByText("Reserve a Table");
 
+  expect(dateLabel).toBeInTheDocument();
+  expect(timeLabel).toBeInTheDocument();
+  expect(guestsLabel).toBeInTheDocument();
+  expect(occasionLabel).toBeInTheDocument();
+  expect(reserveButton).toBeInTheDocument();
 });
+
+
