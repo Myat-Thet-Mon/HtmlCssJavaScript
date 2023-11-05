@@ -76,7 +76,11 @@ html {
   width: 100%;
   height: 100%;
 }
-
+.booking{
+  width: 100%;
+  height: 100%;
+  background-color: #495E57;
+}
 .homePage {
   width: 100%;
   height: 100%;
@@ -149,7 +153,7 @@ div {
 .reserveTableBtn {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: #F4CE14;
-  border-radius: 15px;
+  border-radius: 5px;
   border: none;
   padding: 0.4em;
   padding-left: 1em;
@@ -199,34 +203,40 @@ div {
   /* background-color: red; */
 }
 
-.card{
+.card {
   height: 100%;
   border-radius: 13px;
   background-color: #edefee;
 }
-.card img{
+
+.card img {
   width: 100%;
   height: 40%;
   border-radius: 10px 10px 0px 0px;
 }
-.menuName-Price{
+
+.menuName-Price {
   height: 20%;
   display: grid;
-  grid-template-columns:3.9fr 1fr;
+  grid-template-columns: 3.9fr 1fr;
   padding-left: 1.5em;
   padding-right: 1.5em;
   padding-top: 8%;
-  padding-bottom:3%;
+  padding-bottom: 3%;
 }
-.price{
-color: #F4CE14;;
+
+.price {
+  color: #F4CE14;
+  ;
 }
-.textOfMenu{
+
+.textOfMenu {
   height: 20%;
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
-.orderBtn{
+
+.orderBtn {
   height: 18%;
   border: none;
   padding-left: 1.5em;
@@ -236,31 +246,191 @@ color: #F4CE14;;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
-.footer-content{
+
+.footer-content {
   padding-left: 20%;
   padding-right: 20%;
   margin-top: 3%;
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
-.footer-logo img{
+
+.footer-logo img {
   width: 90px;
   height: 100px;
 }
-.footer-social ul{
+
+.footer-social ul {
   display: grid;
-  grid-template-columns: repeat(3,auto);
+  grid-template-columns: repeat(3, auto);
   padding-top: 13%;
 }
+
 /* /////////////////////////////////////////////BookingPg////////////////////////////////////////////////////////// */
-.bookingPage{
+.bookingPage {
   margin-left: 25%;
   margin-right: 25%;
-  background-color: #495E57;
+  background-color: #edefee;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   height: 100%;
 }
-.headerOfBookingPg{
+
+.headerOfBookingPg {
   background-color: white;
   display: grid;
-  grid-template-columns: repeat(3,auto);
+  grid-template-columns: 2fr 3.5fr 1fr;
+  align-items: center;
+  padding-top: 0.5%;
+  height: 8;
+}
+
+.logoImgOfBookingPg img {
+  width: 230px;
+  height: 40px;
+}
+
+.mainBookingPg {
+  width: 100%;
+  height: 92%;
+}
+
+.mainPhoto {
+  width: 100%;
+  height: 35%;
+  background-color: white;
+  position: relative;
+}
+
+.mainPhoto img {
+  width: 100%;
+  height: 100%;
+}
+.userInputInMainBookingPg{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+}
+.h2Text{
+position: absolute;
+top: 18%;
+left: 55%;
+color: #495E57;
+}
+.addGuests{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: white; */
+  padding: 0.7em;
+  /* border-radius: 10px; */
+  /* border: 1px solid #495E57; */
+}
+.addOrRemove{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.selectDate{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: white; */
+  padding: 0.7em;
+  /* border-radius: 10px; */
+  /* border: 1px solid #495E57; */
+}
+.selectTime{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 0.7em;
+}
+.selectTable{
+  padding: 0.7em;
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+height: 2em;
+}
+.circle {
+  width: 42px;
+  height: 42px; 
+  background-color: #495E57; 
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  color: #FFFFFF; 
+  font-size: 24px; 
+}
+.tableNo{
+  padding-top: 6%;
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-template-rows: repeat(3,auto);
+  gap: 10px;
+}
+/* .footerOfBookingPg{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+/* ////////////////////////////////////////////////booking-form/////////////////////////////////////// */
+.booking-form{
+  width: 100%;
+  height: 100%;
+  padding-left: 30%;
+  padding-right: 30%;
+  background-color: #495E57;
+}
+.form{
+  width: 100%;
+  height: 65%;
+  background-color: edefee;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 7%;
+  padding-bottom: 10%;
+  box-sizing: border-box;
+  display: grid;
+  gap:2em;
+  grid-row: repeat(5,1fr);
+}
+.selectDateForm{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.selectTimeForm{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.selectOccasionForm{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+  height: 2em;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+height: 2em;
+}
+.submitBtn{
+  height: 2em;
+  padding: 0.3em;
+  max-width: fit-content;
+}
+.centerSubmitBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:0.4em;
 }

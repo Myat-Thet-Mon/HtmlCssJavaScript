@@ -4,6 +4,7 @@ import img1 from '../images/greek-salad.jpg';
 import img3 from '../images/img5.jpg';
 import mainImg from '../images/img4.jpg';
 import footerLogo from '../images/Asset 20@4x.png';
+import { Link } from 'react-router-dom';
 export default function HomePage() {
     return (
         <div className="homePage">
@@ -29,7 +30,9 @@ export default function HomePage() {
                     <h1 className='title'>Little Lemon</h1>
                     <h1>Chicago</h1>
                     <p className='lines'>We have a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-                    <button className='reserveTableBtn'>Reserve a Table</button>
+                    <Link to="/booking">
+                        <button className='reserveTableBtn'>Reserve a Table</button>
+                    </Link>
                 </article>
                 <div className='mainImg'>
                     <img src={mainImg} alt="Little Lemon Logo" />
