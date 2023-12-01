@@ -4,7 +4,7 @@ class SingleNode {
         this.previous = this.previous;
     }
 }
-export default class Quequ{
+export default class Queue{
     constructor() {
         this.en = new SingleNode();
         this.dq=new SingleNode();

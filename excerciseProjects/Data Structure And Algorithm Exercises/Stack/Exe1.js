@@ -15,3 +15,4 @@ stack.push(1);
 
 // stack.pop();
 console.log("POP",stack.pop());
+console.log("POP",stack.pop());
